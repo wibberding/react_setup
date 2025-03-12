@@ -20,7 +20,7 @@ In terminal
 - npm install react-router-dom
 - npm run start
 
-# Wrap application file with BrowserRouter
+# Wrap application file with BrowserRouter (index.js)
 
 ```
 import React from 'react';
@@ -70,7 +70,7 @@ function MainRoutes() {
 export default MainRoutes;
 ```
 
-# Add route and link files to App.js
+# Add route and link files to (App.js)
 
 ```
 import logo from './logo.svg';
@@ -119,7 +119,6 @@ export default function HelloWorld({ name = 'World' }) {
 }
 ```
 # Create Namer component
-- Add to other component.
 ```
 import { useState } from 'react';
 
